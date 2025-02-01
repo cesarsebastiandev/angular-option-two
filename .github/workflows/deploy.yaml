@@ -30,5 +30,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          npm run ng -- deploy --repo=https://github.com/cesarsebastiandev/ng-deployment.git --name="cesarsebastiandev" --email="cesarsebastian.dev@gmail.com" --base-href=/ng-deployment/
+          npm run ng -- deploy --repo=https://github.com/cesarsebastiandev/angular-option-two.git --name="cesarsebastiandev" --email="cesarsebastian.dev@gmail.com" --base-href=/angular-option-two/
 
